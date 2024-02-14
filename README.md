@@ -8,4 +8,4 @@ Este repositorio contiene la bibliografía de Rosalía y su nombre de usuario:
 2. CSS
 3. JS
 
-Por favor contactarme al correo palacioskaren57@gmail.com si tienes preguntas.
+Preguntameee
