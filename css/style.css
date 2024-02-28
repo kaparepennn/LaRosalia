@@ -18,4 +18,21 @@ image {
     color: #aa05e6;
     text-align: center;
   }
+
+  .nav-links {    /*Links es el estilo que le estmos dando en el index para que quede aplicado*/
+    list-style: none;
+    display: flex;
+    align-items: center; /*Define la alineación que va a tener cada espacio del 'gap'*/
+    gap: 1rem; /*'gap' los espacios que voy a tener y 'rem' es la cantidad de los espacios*/
+}
+
+.link a {   /**/
+    padding: 0 1rem;
+    color: var(--text-dark); /*El color que va a resaltar cuando pase el cursor por encima*/
+    transition: 0.3s;
+}
+
+.link a:hover {
+    color: var(--primary-color);
+}
 }
