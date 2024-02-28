@@ -4,22 +4,9 @@ body {
   width:  640px;
     padding:50px;
   front-family: 'Arial', sans-serif;
-  
-}
-
-image {
-  display: block;
-  margin: 10 auto;
 
 
-.nome-cantante {
-    font-size: 50px;
-    font-family: 'Times New Roman', Times, cursive;
-    color: #aa05e6;
-    text-align: center;
-  }
-
-  .nav-links {    /*Links es el estilo que le estmos dando en el index para que quede aplicado*/
+.nav-links {    /*Links es el estilo que le estmos dando en el index para que quede aplicado*/
     list-style: none;
     display: flex;
     align-items: center; /*Define la alineación que va a tener cada espacio del 'gap'*/
@@ -35,4 +22,19 @@ image {
 .link a:hover {
     color: var(--primary-color);
 }
+  
+}
+
+image {
+  display: block;
+  margin: 10 auto;
+
+
+.nome-cantante {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, cursive;
+    color: #aa05e6;
+    text-align: center;
+  }
+
 }
