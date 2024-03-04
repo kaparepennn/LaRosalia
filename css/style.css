@@ -138,7 +138,7 @@ header {
 }
 
 .header-image .img-1{
-    height: 250px;
+    height: 350px;
 }
 
 .header-image img {
@@ -151,12 +151,12 @@ header {
 }
 
 .header-image img:nth-child(1) {
-    max-width: 250px;
+    max-width: 350px;
     transform: translate(-75%, -50%);
 }
 
 .header-image img:nth-child(2) {
-    max-width: 150px;
+    max-width: 250px;
     transform: translate(0%, -25%);
 }
 
