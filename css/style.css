@@ -236,12 +236,12 @@ header {
     color: var(--text-dark);
 }
 
-.destination-nav {
+.ÁLBUMES-nav {
     display: flex;
     gap: 1rem;
 }
 
-.destination-nav span {
+.ÁLBUMES-nav span {
     width: 30px;
     height: 30px;
     display: grid;
@@ -254,29 +254,29 @@ header {
     transition: 0.3s;
 }
 
-.destination-nav span:hover {
+.ÁLBUMES-nav span:hover {
     color: var(--extra-light);
     background-color: var(--primary-color);
 }
 
-.destination-grid {
+.ÁLBUMES-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
 }
 
-.destination-card {
+.ÁLBUMES-card {
     overflow: hidden;
     position: relative;
     isolation: isolate;
     cursor: pointer;
 }
 
-.destination-card img {
+.ÁLBUMES-card img {
     border-radius: 1rem;
 }
 
-.destination-details {
+.ÁLBUMES-details {
     position: absolute;
     width: calc(100% - 2rem);
     padding: 1rem;
@@ -292,17 +292,17 @@ header {
     transition: 0.3s;
 }
 
-.destination-card:hover .destination-details {
+.ÁLBUMES-card:hover .ÁLBUMES-details {
     bottom: 1rem;
 }
 
-.destination-title {
+.ÁLBUMES-title {
     font-size: 1rem;
     margin-bottom: 0.5rem;
     font-weight: 600;
 }
 
-.destination-subtitle {
+.ÁLBUMES-subtitle {
     font-size: 0.7rem;
 }
 
