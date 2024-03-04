@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
 
-body {
-  background-color: #eac1fb;
-
 :root {
     --primary-color: #3685fb;
     --primary-color-dark: #2f73d9;
@@ -11,7 +8,7 @@ body {
     --text-light: #767268;
     --extra-light: #ffffff;
     --max-width: 1200px;
-  }
+}
 
 * {
     padding: 0;
@@ -79,6 +76,7 @@ img {
 
 body {
     font-family: 'Poppins', sans-serif;
+  background-color: #eac1fb;
 }
 
 nav {
@@ -92,6 +90,17 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.nav-logo {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    cursor: pointer;
+}
+
+.nav-logo span {
+    color: var(--primary-color);
 }
 
 .nav-links {
@@ -277,7 +286,7 @@ header {
     transition: 0.3s;
 }
 
-.ÁLBUMES-card:hover .ÁLBUMES-details {
+.ÁLBUMES-card:hover .destination-details {
     bottom: 1rem;
 }
 
@@ -288,9 +297,8 @@ header {
 }
 
 .ÁLBUMES-subtitle {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
 }
-
 
 .PREMIOS {
     background-color: var(--secondary-color);
@@ -304,7 +312,7 @@ header {
 
 .PREMIOS-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     margin: 4rem 0;
 }
@@ -324,11 +332,6 @@ header {
     color: var(--text-dark);
     background-color: var(--extra-light);
     cursor: pointer;
-}
-
-.rating {
-    color: goldenrod;
-
 }
 
 .gallery-container{
