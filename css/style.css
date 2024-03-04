@@ -142,7 +142,7 @@ header {
 }
 
 .header-image .img-1{
-    height: 350px;
+    height: 450px;
 }
 
 .header-image img {
@@ -155,12 +155,12 @@ header {
 }
 
 .header-image img:nth-child(1) {
-    max-width: 350px;
+    max-width: 450px;
     transform: translate(-75%, -50%);
 }
 
 .header-image img:nth-child(2) {
-    max-width: 250px;
+    max-width: 350px;
     transform: translate(0%, -25%);
 }
 
@@ -332,6 +332,120 @@ header {
 
 .ÁLBUMES-card:hover .ÁLBUMES-details {
     bottom: 1rem;
+}
+
+.ÁLBUMES-nav span:hover {
+    color: var(--extra-light);
+    background-color: var(--primary-color);
+}
+
+.ÁLBUMES-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.ÁLBUMES-card {
+    overflow: hidden;
+    position: relative;
+    isolation: isolate;
+    cursor: pointer;
+}
+
+.ÁLBUMES-card img {
+    border-radius: 1rem;
+}
+
+.ÁLBUMES-details {
+    position: absolute;
+    width: calc(100% - 2rem);
+    padding: 1rem;
+    bottom: -6rem;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: var(--extra-light);
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    z-index: 1;
+    transition: 0.3s;
+}
+
+.ÁLBUMES-nav span:hover {
+    color: var(--extra-light);
+    background-color: var(--primary-color);
+}
+
+.ÁLBUMES-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.ÁLBUMES-card {
+    overflow: hidden;
+    position: relative;
+    isolation: isolate;
+    cursor: pointer;
+}
+
+.ÁLBUMES-card img {
+    border-radius: 1rem;
+}
+
+.ÁLBUMES-details {
+    position: absolute;
+    width: calc(100% - 2rem);
+    padding: 1rem;
+    bottom: -6rem;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: var(--extra-light);
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    z-index: 1;
+    transition: 0.3s;
+}
+
+.ÁLBUMES-nav span:hover {
+    color: var(--extra-light);
+    background-color: var(--primary-color);
+}
+
+.ÁLBUMES-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.ÁLBUMES-card {
+    overflow: hidden;
+    position: relative;
+    isolation: isolate;
+    cursor: pointer;
+}
+
+.ÁLBUMES-card img {
+    border-radius: 1rem;
+}
+
+.ÁLBUMES-details {
+    position: absolute;
+    width: calc(100% - 2rem);
+    padding: 1rem;
+    bottom: -6rem;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: var(--extra-light);
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    z-index: 1;
+    transition: 0.3s;
 }
 
 .ÁLBUMES-title {
