@@ -303,30 +303,30 @@ header {
 }
 
 
-.ÚLTIMOS 3 PREMIOS {
+.PREMIOS {
     background-color: var(--secondary-color);
 }
 
-.ÚLTIMOS 3 PREMIOS-container :is(.section-title, .section-subtitle, .view-all) {
+.PREMIOS-container :is(.section-title, .section-subtitle, .view-all) {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
 }
 
-.ÚLTIMOS 3 PREMIOS-grid {
+.PREMIOS-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     margin: 4rem 0;
 }
 
-.ÚLTIMOS 3 PREMIOS-card {
+.PREMIOS-card {
     border-radius: 1rem;
     overflow: hidden;
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
 }
 
-.ÚLTIMOS 3 PREMIOS-details {
+.PREMIOS-details {
     padding: 1rem;
     display: grid;
     gap: 0.5rem;
