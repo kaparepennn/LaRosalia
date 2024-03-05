@@ -5,10 +5,10 @@ body {
 }
 
 :root {
-    --primary-color: #3685fb;
-    --primary-color-dark: #2f73d9;
-    --secondary-color: #fafcff;
-    --text-dark: #0d213f;
+    --primary-color: ##9806f9;
+    --primary-color-dark: #cf08dd;
+    --secondary-color: #86d6f9;
+    --text-dark: #350d3f;
     --text-light: #767268;
     --extra-light: #ffffff;
     --max-width: 1200px;
