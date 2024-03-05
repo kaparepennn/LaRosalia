@@ -233,12 +233,12 @@ header {
     color: var(--text-dark);
 }
 
-.ÁLBUMES-nav {
+.ALBUMES-nav {
     display: flex;
     gap: 1rem;
 }
 
-.ÁLBUMES-nav span {
+.ALBUMES-nav span {
     width: 30px;
     height: 30px;
     display: grid;
@@ -251,29 +251,29 @@ header {
     transition: 0.3s;
 }
 
-.ÁLBUMES-nav span:hover {
+.ALBUMES-nav span:hover {
     color: var(--extra-light);
     background-color: var(--primary-color);
 }
 
-.ÁLBUMES-grid {
+.ALBUMES-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
 }
 
-.ÁLBUMES-card {
+.ALBUMES-card {
     overflow: hidden;
     position: relative;
     isolation: isolate;
     cursor: pointer;
 }
 
-.ÁLBUMES-card img {
+.ALBUMES-card img {
     border-radius: 1rem;
 }
 
-.ÁLBUMES-details {
+.ALBUMES-details {
     position: absolute;
     width: calc(100% - 2rem);
     padding: 1rem;
@@ -289,17 +289,17 @@ header {
     transition: 0.3s;
 }
 
-.ÁLBUMES-card:hover .destination-details {
+.ALBUMES-card:hover .destination-details {
     bottom: 1rem;
 }
 
-.ÁLBUMES-title {
+.ALBUMES-title {
     font-size: 1rem;
     margin-bottom: 0.5rem;
     font-weight: 600;
 }
 
-.ÁLBUMES-subtitle {
+.ALBUMES-subtitle {
     font-size: 0.7rem;
 }
 
