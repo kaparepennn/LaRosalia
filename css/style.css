@@ -289,7 +289,7 @@ header {
     transition: 0.3s;
 }
 
-.ALBUMES-card:hover .destination-details {
+.ALBUMES-card:hover .ALBUMES-details {
     bottom: 1rem;
 }
 
