@@ -337,36 +337,36 @@ header {
     cursor: pointer;
 }
 
-.gallery-container{
+.CANCIONES-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 2rem;
 }
-.image-gallery{
+.image-CANCIONES{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 2rem;
 }
-.gallery-col{
+.CANCIONES-col{
     display: grid;
     place-content: center;
     gap: 1rem;
 }
-.gallery-col img{
+.CANCIONES-col img{
     border-radius: 1rem;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
 }
-.gallery-content{
+.CANCIONES-content{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-.gallery-content > div{
+.CANCIONEScontent > div{
     max-width: 400px;
 }
 
-.gallery-content .section-subtitle{
+.CANCIONES-content .section-subtitle{
     margin-bottom: 2rem;
 }
 
