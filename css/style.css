@@ -233,64 +233,38 @@ header {
     color: var(--text-dark);
 }
 
-.ALBUMES-nav {
-    display: flex;
-    gap: 1rem;
+.ALBUMES {
+    background-color: var(--secondary-color);
 }
 
-.ALBUMES-nav span {
-    width: 30px;
-    height: 30px;
-    display: grid;
-    place-content: center;
-    color: var(--primary-color);
-    border: 1px solid var(--primary-color);
-    border-radius: 100%;
-    font-size: 1.5rem;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.ALBUMES-nav span:hover {
-    color: var(--extra-light);
-    background-color: var(--primary-color);
+.ALBUMES-container :is(.section-title, .section-subtitle, .view-all) {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .ALBUMES-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+    margin: 4rem 0;
 }
 
 .ALBUMES-card {
-    overflow: hidden;
-    position: relative;
-    isolation: isolate;
-    cursor: pointer;
-}
-
-.ALBUMES-card img {
     border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
 }
 
 .ALBUMES-details {
-    position: absolute;
-    width: calc(100% - 2rem);
     padding: 1rem;
-    bottom: -5rem;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-    color: var(--extra-light);
-    background-color: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(4px);
-    border-radius: 10px;
-    z-index: 1;
-    transition: 0.3s;
-}
-
-.ALBUMES-card:hover .ALBUMES-details {
-    bottom: 1rem;
+    display: grid;
+    gap: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    background-color: var(--extra-light);
+    cursor: pointer;
 }
 
 .ALBUMES-title {
@@ -300,7 +274,7 @@ header {
 }
 
 .ALBUMES-subtitle {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
 }
 
 
