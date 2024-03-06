@@ -251,9 +251,9 @@ header {
 }
 
 .ALBUMES-card {
-    border-radius: 3rem;
+    border-radius: 1rem;
     overflow: hidden;
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 .ALBUMES-details {
