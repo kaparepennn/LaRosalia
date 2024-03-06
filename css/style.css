@@ -193,7 +193,7 @@ header {
     margin-top: 1rem;
 }
 
-.story {
+.BIOGRAFÍA {
     display: flex;
     align-items: center;
     gap: 2rem;
@@ -221,13 +221,13 @@ header {
 .video-image span i {
     padding: 0.5rem;
     font-size: 1rem;
-    color: red;
+    color: #ed0707;
     background: var(--extra-light);
     border-radius: 100%;
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
 }
 
-.story>span {
+.BIOGRAFÍA>span {
     font-size: 1rem;
     font-weight: 600;
     color: var(--text-dark);
@@ -337,7 +337,6 @@ header {
     cursor: pointer;
 }
 
-
 .CANCIONES-nav {
     display: flex;
     gap: 1rem;
@@ -382,7 +381,7 @@ header {
     position: absolute;
     width: calc(100% - 2rem);
     padding: 1rem;
-    bottom: -5rem;
+    bottom: -6rem;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
@@ -405,7 +404,7 @@ header {
 }
 
 .CANCIONES-subtitle {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
 }
 
 .PORTADAS {
